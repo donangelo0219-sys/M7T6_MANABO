@@ -1,0 +1,22 @@
+LIVE-SITE VERIFICATION
+
+Live URL: https://bouquetcompany.ifree.page
+
+Date tested: November 14, 2026
+
+Tests performed:
+- Opened the homepage: Passed
+- Opened contact.html through the Contact link: Passed
+- Tested the navigation links: Passed
+- Tested the menu and dark-mode controls: Passed
+- Tested the contact form: Passed
+- Checked the browser Console: No errors or warnings
+- Tested 320px viewport: Passed
+- Tested 768px viewport: Passed
+- Tested 1440px viewport: Passed
+
+Local-versus-live comparison:
+The local and live websites behaved the same during testing.
+
+Differences and causes:
+No differences were observed.

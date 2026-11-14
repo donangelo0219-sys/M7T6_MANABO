@@ -1,0 +1,143 @@
+CODE & ASSETS
+
+Checklist item: All HTML, CSS, and JavaScript syntax validated without errors
+Applicable: Applicable
+Check performed: Checked the HTML, CSS, and JavaScript files and prepared them for HTML, CSS, and JavaScript validation.
+Result: Not yet fully tested
+Action taken: Need to run the files through the appropriate validators.
+
+Checklist item: Console logs, debugger statements, and commented-out dead code removed
+Applicable: Applicable
+Check performed: Searched the HTML, CSS, and JavaScript files for debugger and console.log.
+Result: No debugger or console.log statements found. Commented-out code still needs a visual check.
+Action taken: None so far.
+
+Checklist item: All internal links, anchor tags, and navigation paths verified
+Applicable: Applicable
+Check performed: Clicked the links on index.html and contact.html and checked the href paths.
+Result: Failed if prices.html and creator.html do not exist.
+Action taken: Need to remove the broken links or create the missing pages.
+
+Checklist item: All relative asset paths verified case-sensitively for Linux servers
+Applicable: Applicable
+Check performed: Compared css/style.css, js/script.js, and assets/MIDTERM_MANABO.jpg with the actual folders and filenames.
+Result: Not yet fully verified.
+Action taken: Need to confirm that every folder and filename uses matching uppercase and lowercase letters.
+
+Checklist item: All external third-party API keys, analytics tags, and form endpoints pointed to production
+Applicable: Not applicable to this project
+Check performed: Searched the HTML and JavaScript for API keys, analytics, fetch requests, and external form endpoints.
+Result: None found. The form uses action="#", so it does not send data to an external service.
+Action taken: None.
+
+Checklist item: Cross-browser and responsive mobile viewport testing completed
+Applicable: Applicable
+Check performed: Tested the pages at 320px, 768px, and 1440px and opened them in the available browsers.
+Result: Passed only if all tests were actually completed successfully.
+Action taken: Record any layout problems found.
+
+Configuration & Routing
+
+CONFIGURATION & ROUTING
+
+Checklist item: Default entry point file (index.html) placed in the correct document root directory
+Applicable: Applicable
+Check performed: Confirmed that the homepage is named index.html in lowercase and opens correctly from the project folder.
+Result: Passed locally; InfinityFree placement has not been tested yet.
+Action taken: Will upload index.html to the correct htdocs directory during deployment.
+
+Checklist item: Custom 404 and 500 error pages configured
+Applicable: Not applicable to this project
+Check performed: Checked the project files for custom 404.html, 500.html, and custom error-page settings.
+Result: No custom error pages were found.
+Action taken: None. The project does not include custom error pages.
+
+Checklist item: WWW vs. non-WWW canonical domain redirects configured
+Applicable: Not applicable to this project
+Check performed: Checked the project for a custom domain and WWW/non-WWW redirect settings.
+Result: The project does not use a custom domain or WWW redirect.
+Action taken: None.
+
+Checklist item: HTTP to HTTPS forced redirect active
+Applicable: Applicable to the live website
+Check performed: Not yet tested because the website has not been deployed to InfinityFree.
+Result: Not yet tested.
+Action taken: Will test the live URL after deployment.
+
+Checklist item: Clean URL rewrites or trailing-slash rules tested in server configuration
+Applicable: Not applicable to this project
+Check performed: Checked the project for .htaccess files, rewrite rules, and trailing-slash settings.
+Result: The project uses normal .html file paths and has no rewrite configuration.
+Action taken: None.
+
+Performance & SEO
+
+PERFORMANCE & SEO
+
+Checklist item: CSS and JavaScript files minified and bundled
+Applicable: Applicable
+Check performed: Inspected css/style.css and js/script.js.
+Result: Not met; the files are readable and are not minified or bundled.
+Action taken: Recorded this as a project limitation because the project does not use a build tool.
+
+Checklist item: Images compressed and served in modern formats with width and height attributes
+Applicable: Applicable
+Check performed: Checked the image file size, format, and the image element in index.html.
+Result: Partially met; the image has a width attribute and does not appear oversized, but it is a JPG and does not have a height attribute.
+Action taken: Recorded the image optimization result for possible improvement.
+
+Checklist item: Browser caching headers and Gzip/Brotli compression enabled
+Applicable: Applicable to the live website
+Check performed: Not yet tested because the website has not been uploaded to InfinityFree.
+Result: Not yet tested; this depends on the hosting server.
+Action taken: Will check the live site after deployment.
+
+Checklist item: Page titles, meta descriptions, Open Graph tags, and favicons present on all pages
+Applicable: Applicable
+Check performed: Checked the head section of index.html and contact.html.
+Result: Partially met; both pages have titles, but no meta descriptions, Open Graph tags, or favicon links were found.
+Action taken: Recorded the missing SEO elements.
+
+Checklist item: robots.txt and sitemap.xml verified and accessible at root
+Applicable: Applicable to the public website
+Check performed: Checked the project folder for robots.txt and sitemap.xml.
+Result: Not met; neither file was found.
+Action taken: Recorded that these files have not been created.
+
+Security
+
+SECURITY
+
+Checklist item: SSL/TLS certificate installed, valid, and free of mixed-content warnings
+Applicable: Applicable to the live website
+Check performed: Not yet tested because the website has not been deployed to InfinityFree.
+Result: Not yet tested.
+Action taken: Will check the HTTPS live URL after deployment.
+
+Checklist item: Directory browsing disabled
+Applicable: Applicable to the live website
+Check performed: Not yet tested because the website has not been uploaded.
+Result: Not yet tested.
+Action taken: Will test an asset-folder URL after deployment.
+
+Checklist item: Sensitive files (.git, .env, README, source maps, build configs) excluded from upload
+Applicable: Applicable
+Check performed: Checked the project files for .env files, source maps, build configurations, and private files.
+Result: Not yet fully verified for the hosting upload.
+Action taken: Will upload only the website files needed by the public site. The README will remain in the project repository unless it is needed online.
+
+Checklist item: Standard security headers configured
+Applicable: Applicable to the live website
+Check performed: Checked the HTML files and project folders for security-header configuration.
+Result: Not yet tested; these headers are normally checked from the live server response.
+Action taken: Will check the headers after deployment.
+
+Checklist item: File and folder permissions verified (644 for files, 755 for directories)
+Applicable: Applicable to the hosting account
+Check performed: Not yet tested because the files are still local.
+Result: Not yet tested.
+Action taken: Will check the permissions in the hosting file manager if the option is available.
+
+STAGING & BACKUP
+
+No checklist items were provided under the Staging & Backup heading in the AI-generated checklist.
